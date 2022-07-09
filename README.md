@@ -7,7 +7,7 @@
 ```commandline
 import Steganography
 
-str_to_be_encrypted = 'Sad story was that she rejected me unconciously on July 6th, 2022.But I still wish to befrend her'
+str_to_be_encrypted = 'Hello, I am PureLov3, this is a test for my Steganography tool, this text line is supposed to be hidden in a png file, unless you use my tool, you won\'t find it : )'
 file_input = './images/car.png'     # set input png file with path
 file_output = './img_edited/car_with_secret.png'    # set output file name with path
 Steganography.encrypt(file_input, file_output, str_to_be_encrypted, mod='R')  # execute
@@ -23,5 +23,5 @@ Steganography.decrypt(file_to_be_decrypted)     # execute
 ```
 After you execute, command line would tell you the result like:
 ```commandline
-Sad story was that she rejected me unconciously on July 6th, 2022.But I still wish to befrend her
+Hello, I am PureLov3, this is a test for my Steganography tool, this text line is supposed to be hidden in a png file, unless you use my tool, you won\'t find it : )
 ```
