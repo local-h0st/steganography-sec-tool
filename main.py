@@ -1,13 +1,7 @@
 import Steganography
 
 if __name__ == '__main__':
-    my_secret = 'I date with her in the name of friend, during the chat she told me she might have fallen in love with someone in her campus, but she did not know that I like her. She said it would be strange for her to accept a very familiar friend to become her boyfriend. I was depressed, had I missed the very time to say I love her? Too late, I felt down, but she did not know. Forgive my bad English, I just lost my girl.'
-    file_input = 'images/car.png'
-    file_output = './img_edited/car_with_secret.png'
-    Steganography.encrypt(file_input, file_output, my_secret, mod='R')
-
-    file_to_be_decrypted = './img_edited/car_with_secret.png'
-    Steganography.decrypt(file_to_be_decrypted)
+    print('I put my story here, interested?')
 
 
 
