@@ -10,3 +10,4 @@ if __name__ == '__main__':
 # 这就和我想学Python反序列化但是却把PVM学了一遍的道理是一样的，没必要
 # 但是倘若不是png的lsb隐写，例如修改length数据等等就需要仔细了解png文件格式了
 # PIL仅支持Python2，Pillow是Python3版的PIL
+# Steganograph里面没有写文件结束但是照样能正常输出，应该是碰到00也就是\0自动作为字符串的结尾，所以才能正常输出
